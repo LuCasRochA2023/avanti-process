@@ -1,0 +1,18 @@
+.section {
+    background-color: #E7E7EA;
+    width: 1920px;
+    height: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firist-image {
+    width: 685px;
+    height: 510px;
+ 
+}
+.second-image {
+    width: 576.03px;
+    height: 224.98px;
+   
+}

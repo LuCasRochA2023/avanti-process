@@ -1,0 +1,156 @@
+.text-main {
+    max-width: 1288.4px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:16px 44px;
+}
+
+.text-main h2 {
+    
+    font-weight: 700;
+    font-size: 20px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 878px;
+}
+
+.section-main {
+    width: 100vw;
+    height: 678px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-group-size {
+    width: 1288.4px;
+    height: 478px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card-size {
+    width: 242px;
+    gap:17px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+
+.card-group {
+    display: flex;
+    justify-content: center; 
+}
+.btn-novo {
+    color: white;
+    background-color: #00264E;
+    width: 41px;
+    border-radius: 4px;
+    letter-spacing: 0;
+    height: 23px;
+    font-size: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.card-text-description::after {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #303030;
+    content: "<h3> Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>";
+}
+
+.card-text-price {
+    text-decoration: line-through ;
+    font-size: 12px;
+    color: #303030;
+}
+
+.btn-buy {
+    background-color: rgb(0, 92, 255);
+    color: white;
+    width: 222px;
+    height: 40px;
+    text-align: center;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.card-text-price-two {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.card-text-payment {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.card-img {
+    width: 222px;
+    height: 222px;
+}
+
+.grid-display {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-off {
+    width: 64px;
+    height: 20px;
+    background-color: #5EC0BE;
+    color: white;
+    text-decoration:underline;
+    gap: 5px;
+    border-radius: 4px;
+    border: 1px solid #5EC0BE;
+}
+
+.active {
+    background-color: #303030;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #303030;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79px;
+}
+
+.waiting {
+    background-color: #838383;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #838383;
+}
+
+.btn-next , .btn-prev {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #005CFF;
+    background-color: #FFFFFF;
+    color: #005CFF;
+}

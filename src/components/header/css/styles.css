@@ -1,0 +1,149 @@
+.nav-div {
+    align-items: center;
+    width: 100vw;
+    height: 118px;
+    gap: 20px;
+}
+
+ .promotion-container  {
+    width: 1920px;
+    height: 30px;
+    background-color: #005CFF;
+} 
+
+.promotion-text {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 12px;
+}
+
+.input {
+    all: unset;
+    width: 579px;
+    height: 38px;
+    border-radius: 16px;
+    display: flex;
+    padding: 0 10px;
+    border:1px solid gray;
+    outline: none;
+    box-shadow: none;
+}
+
+.i-class {
+    position: absolute;
+    right: 312px;   
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 300px;
+}
+
+.nav {
+    background-color: Grey Scale/white;
+}
+
+.size {
+    font-size: 46px;
+    color: blue;
+}
+
+.div-user {
+    display: flex;
+    align-items: center;
+}
+
+.user-text {
+    display: flex;
+    gap: 6px;
+    margin-top: 12px;
+    align-items: flex-start ;
+    flex-direction: column;
+    line-height: 0.3;
+    font-size: 14px;
+    font-weight: 600;   
+}
+
+.shop-icon {
+    font-size: 46px; 
+}
+
+.div-cart {
+    display: inline-block;
+    position: relative;
+}
+
+.circle  {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    color: white;
+    background-color: blue;
+    position: absolute;
+    display: flex;
+    font-size: 16px;
+    padding: 12px 0 0 1px;
+    align-items: center;
+    justify-content: center;
+    top: -1px;  
+    right: -5px; 
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    line-height: 1.5px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list-ul {
+    gap: 54px;
+    width: 1920px;
+    list-style: none;
+}
+
+.icon-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+
+
+.text-list p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+.text-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0;
+}
+
+.bi-list {
+    font-size: 22px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
