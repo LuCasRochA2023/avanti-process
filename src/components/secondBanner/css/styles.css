@@ -1,0 +1,23 @@
+.second-banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/imageSecondBanner.png");
+    height: 660px;
+}
+
+.div-title {
+    background-color: #005CFF;
+    
+    width: 1920px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 132px;
+}
+.titulo-branco {
+    color: white;
+    font-size: 30px;
+    line-height: 140%;
+    font-weight: 400;
+}

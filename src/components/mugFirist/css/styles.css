@@ -1,0 +1,38 @@
+.mug-section-div, .mug-section-firist-div p {
+    width: 1177px;
+    height: 747px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    font-size: 18px;
+
+}
+
+.mug-section-second-div h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.mug-section-second-div {
+    gap: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mug-section {
+    margin: -80px 0;
+    width: 1920px;
+    height: 1047px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mug-section-firist-div {
+    background-color: #C2C2C2;
+    width: 652px;
+    height: 747px;
+
+}
